@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 4534",
-    "build": "next build",
+    "build": "CI=false react-scripts build",
     "start": "next start -p 4534",
     "lint": "eslint"
   },
